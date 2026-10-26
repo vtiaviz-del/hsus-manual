@@ -13,6 +13,14 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Editar ou excluir uma evolução
@@ -23,7 +31,7 @@ As evoluções fazem parte do prontuário do paciente. Por isso, o sistema **nun
 Só **quem lançou a evolução** e o **administrador** veem os botões Editar e Excluir (1).
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../imagens/enf-historico-acoes.png" alt="Botões Editar e Excluir no histórico" width="560"><figcaption><p>Botões Editar e Excluir no histórico</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/enf-historico-acoes.png" alt="Botões Editar e Excluir no histórico" width="560"><figcaption><p>Botões Editar e Excluir no histórico</p></figcaption></figure></div>
 
 ## Editar (retificar)
 
@@ -39,7 +47,7 @@ No histórico, clique em **Editar**. O formulário abre preenchido, com o títul
 
 Corrija o que for preciso (1) e informe o **motivo da retificação** (2), que é obrigatório. Clique em **Salvar alterações** (3).
 
-<div data-with-frame="true"><figure><img src="../imagens/enf-editar.png" alt="Correção com o motivo da retificação" width="560"><figcaption><p>Correção com o motivo da retificação</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/enf-editar.png" alt="Correção com o motivo da retificação" width="560"><figcaption><p>Correção com o motivo da retificação</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -47,7 +55,7 @@ Corrija o que for preciso (1) e informe o **motivo da retificação** (2), que �
 
 A evolução ganha a etiqueta **Retificada** (1). Em **ver alterações** (2) aparecem quem corrigiu, quando e o motivo, com o texto anterior riscado em vermelho e o novo em verde.
 
-<div data-with-frame="true"><figure><img src="../imagens/enf-retificada.png" alt="Evolução retificada" width="560"><figcaption><p>Evolução retificada</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/enf-retificada.png" alt="Evolução retificada" width="560"><figcaption><p>Evolução retificada</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -61,7 +69,7 @@ A evolução continua em nome de quem a lançou. Na evolução de enfermagem, as
 
 No histórico, clique em **Excluir**. Escreva o **motivo da exclusão** (1), que é obrigatório, e clique em **Excluir evolução** (2).
 
-<div data-with-frame="true"><figure><img src="../imagens/enf-excluir.png" alt="Confirmação da exclusão com o motivo"><figcaption><p>Confirmação da exclusão com o motivo</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/enf-excluir.png" alt="Confirmação da exclusão com o motivo"><figcaption><p>Confirmação da exclusão com o motivo</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -69,7 +77,7 @@ No histórico, clique em **Excluir**. Escreva o **motivo da exclusão** (1), que
 
 A evolução sai do histórico e, no fim da lista, aparece o aviso de evolução excluída (1).
 
-<div data-with-frame="true"><figure><img src="../imagens/enf-excluida.png" alt="Aviso de evolução excluída" width="560"><figcaption><p>Aviso de evolução excluída</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/enf-excluida.png" alt="Aviso de evolução excluída" width="560"><figcaption><p>Aviso de evolução excluída</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 

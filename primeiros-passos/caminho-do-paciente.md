@@ -13,13 +13,21 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Caminho do paciente
 
 Todo atendimento começa na **Recepção**, em Entradas. A partir dali, o paciente passa sozinho para a tela do setor seguinte assim que cada etapa é salva. Ninguém precisa "mandar" o paciente de uma tela para outra.
 
-<figure><img src="../imagens/fluxo-geral.svg" alt="Caminho do paciente, da entrada até os finalizados"><figcaption><p>Caminho do paciente, da entrada até os finalizados</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/fluxo-geral.svg" alt="Caminho do paciente, da entrada até os finalizados"><figcaption><p>Caminho do paciente, da entrada até os finalizados</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Atendimento novo" icon="user-plus" %}

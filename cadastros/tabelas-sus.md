@@ -1,5 +1,7 @@
 ---
-description: Consulta e atualização das tabelas de CID-10, procedimentos SUS e compatibilidades.
+description: >-
+  Consulta e atualização das tabelas de CID-10, procedimentos SUS e
+  compatibilidades.
 icon: table
 layout:
   width: wide
@@ -13,13 +15,21 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Tabelas SUS
 
 Em **Cadastros › Tabelas SUS** ficam as tabelas usadas na saída da internação: **CID-10**, **procedimentos SUS** e as **compatibilidades** entre eles. São elas que fazem o sistema mostrar só os procedimentos compatíveis com o CID, o sexo e a idade do paciente.
 
-<div data-with-frame="true"><figure><img src="../imagens/tabelas-sus.png" alt="Cadastros › Tabelas SUS, buscando &quot;pneumonia&quot;"><figcaption><p>Cadastros › Tabelas SUS, buscando &quot;pneumonia&quot;</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/tabelas-sus.png" alt="Cadastros › Tabelas SUS, buscando &#x22;pneumonia&#x22;"><figcaption><p>Cadastros › Tabelas SUS, buscando "pneumonia"</p></figcaption></figure></div>
 
 No alto, **Tabelas em uso** mostra a fonte das tabelas (padrão do sistema ou arquivo importado) e a quantidade de CIDs, procedimentos e compatibilidades.
 
@@ -32,11 +42,11 @@ No alto, **Tabelas em uso** mostra a fonte das tabelas (padrão do sistema ou ar
 
 Clique em uma linha (1) para ver os itens compatíveis (2). No CID, aparecem os procedimentos permitidos, com sexo e idade.
 
-<div data-with-frame="true"><figure><img src="../imagens/tabelas-sus-compativeis.png" alt="Procedimentos compatíveis com um CID"><figcaption><p>Procedimentos compatíveis com um CID</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/tabelas-sus-compativeis.png" alt="Procedimentos compatíveis com um CID"><figcaption><p>Procedimentos compatíveis com um CID</p></figcaption></figure></div>
 
 Na aba **Procedimentos** (1), a lista (2) mostra cada procedimento com os CIDs compatíveis.
 
-<div data-with-frame="true"><figure><img src="../imagens/tabelas-sus-procedimentos.png" alt="Aba Procedimentos"><figcaption><p>Aba Procedimentos</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/tabelas-sus-procedimentos.png" alt="Aba Procedimentos"><figcaption><p>Aba Procedimentos</p></figcaption></figure></div>
 
 ## Atualizar as tabelas
 

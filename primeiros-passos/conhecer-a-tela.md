@@ -13,13 +13,21 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Conhecer a tela
 
 Todas as telas do H-SUS seguem o mesmo desenho. Conhecendo as partes abaixo, você se localiza em qualquer uma delas.
 
-<div data-with-frame="true"><figure><img src="../imagens/tela-inicial.png" alt="Partes fixas da tela"><figcaption><p>Partes fixas da tela</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/tela-inicial.png" alt="Partes fixas da tela"><figcaption><p>Partes fixas da tela</p></figcaption></figure></div>
 
 1. **Menu lateral:** leva às telas do sistema, agrupadas por setor (Recepção, Ambulatório, Enfermaria, Finalizados e Cadastros). A tela aberta fica destacada. O botão de três linhas, ao lado da logo, recolhe ou abre o menu.
 2. **Saudação:** mostra seu nome e, logo abaixo, para que serve a tela aberta.
@@ -50,7 +58,7 @@ Todas as telas do H-SUS seguem o mesmo desenho. Conhecendo as partes abaixo, voc
 
 Campos com **asterisco (\*)** são obrigatórios. Se você tentar salvar sem eles, o campo fica vermelho e uma mensagem explica o que falta.
 
-<div data-with-frame="true"><figure><img src="../imagens/campos-obrigatorios.png" alt="Campos obrigatórios em vermelho e o aviso no canto da tela"><figcaption><p>Campos obrigatórios em vermelho e o aviso no canto da tela</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/campos-obrigatorios.png" alt="Campos obrigatórios em vermelho e o aviso no canto da tela"><figcaption><p>Campos obrigatórios em vermelho e o aviso no canto da tela</p></figcaption></figure></div>
 
 1. **Nome completo** em vermelho: precisa ser preenchido.
 2. **Relato** em vermelho: precisa ser preenchido.

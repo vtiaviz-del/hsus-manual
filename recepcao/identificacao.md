@@ -13,6 +13,14 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Identificação
@@ -29,7 +37,7 @@ Clique no paciente na lista de Entradas. A aba **Identificação** já vem abert
 {% step %}
 ### Preencha documentos e dados pessoais
 
-<div data-with-frame="true"><figure><img src="../imagens/identificacao-documentos.png" alt="Documentos e dados pessoais"><figcaption><p>Documentos e dados pessoais</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/identificacao-documentos.png" alt="Documentos e dados pessoais"><figcaption><p>Documentos e dados pessoais</p></figcaption></figure></div>
 
 1. **CNS** (Cartão Nacional de Saúde). Ao digitar, o sistema sugere pacientes já cadastrados.
 2. **CPF**, se houver. Ele também busca pacientes já atendidos.
@@ -41,7 +49,7 @@ Clique no paciente na lista de Entradas. A aba **Identificação** já vem abert
 {% step %}
 ### Preencha o contato e o endereço
 
-<div data-with-frame="true"><figure><img src="../imagens/identificacao-endereco.png" alt="Contato e endereço"><figcaption><p>Contato e endereço</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/identificacao-endereco.png" alt="Contato e endereço"><figcaption><p>Contato e endereço</p></figcaption></figure></div>
 
 1. **Telefone** e **tipo de logradouro** (rua, travessa, avenida, vila, fazenda).
 2. **Logradouro**, depois número e bairro.

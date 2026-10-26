@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Segoe UI, DM Sans, Arial, sans-serif">
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6a85"/>
+    </marker>
+    <style>
+      .faixa { fill: #f4f7fc; stroke: #dfe6f1; }
+      .cab { font-size: 14px; font-weight: 700; letter-spacing: 1px; fill: #fff; }
+      .caixa { fill: #fff; stroke: #c9d4e6; stroke-width: 1.5; }
+      .tit { font-size: 15px; font-weight: 700; fill: #1b2a44; }
+      .sub { font-size: 12px; fill: #5a6a85; }
+      .lig { fill: none; stroke: #5a6a85; stroke-width: 1.8; marker-end: url(#seta); }
+      .rot { font-size: 12px; font-weight: 700; fill: #3a7bd5; }
+      .pill { fill: #e6f8f1; stroke: #00c9a7; stroke-width: 1.5; }
+    </style>
+  </defs>
+  <rect width="1200" height="700" fill="#fff"/>
+
+  <!-- faixas dos setores -->
+  <rect class="faixa" x="20" y="20" width="280" height="610" rx="14"/>
+  <rect class="faixa" x="320" y="20" width="260" height="610" rx="14"/>
+  <rect class="faixa" x="600" y="20" width="280" height="610" rx="14"/>
+  <rect class="faixa" x="900" y="20" width="280" height="610" rx="14"/>
+  <rect x="20" y="20" width="280" height="44" rx="14" fill="#3a7bd5"/><text class="cab" x="160" y="48" text-anchor="middle">RECEPÇÃO · ENTRADAS</text>
+  <rect x="320" y="20" width="260" height="44" rx="14" fill="#00a688"/><text class="cab" x="450" y="48" text-anchor="middle">AMBULATÓRIO</text>
+  <rect x="600" y="20" width="280" height="44" rx="14" fill="#7c5cd6"/><text class="cab" x="740" y="48" text-anchor="middle">ENFERMARIA</text>
+  <rect x="900" y="20" width="280" height="44" rx="14" fill="#e0782b"/><text class="cab" x="1040" y="48" text-anchor="middle">FINALIZADOS</text>
+
+  <!-- recepção -->
+  <rect class="caixa" x="50" y="80" width="240" height="54" rx="10"/>
+  <text class="tit" x="66" y="103">Novo atendimento</text><text class="sub" x="66" y="122">nome, relato, data, hora e origem</text>
+
+  <text class="rot" x="66" y="156">Origem: Novo</text>
+  <rect class="caixa" x="50" y="165" width="240" height="46" rx="10"/><text class="tit" x="66" y="187">1. Identificação</text><text class="sub" x="66" y="203">CNS, mãe, endereço</text>
+  <rect class="caixa" x="50" y="235" width="240" height="46" rx="10"/><text class="tit" x="66" y="257">2. Triagem</text><text class="sub" x="66" y="273">classificação de risco e sinais vitais</text>
+  <rect class="caixa" x="50" y="305" width="240" height="46" rx="10"/><text class="tit" x="66" y="327">3. Consulta</text><text class="sub" x="66" y="343">diagnóstico, prescrição e encaminhamento</text>
+  <rect class="pill" x="95" y="378" width="150" height="32" rx="16"/><text class="sub" x="170" y="399" text-anchor="middle" font-weight="700" fill="#00866d">Alta na consulta</text>
+  <path class="lig" d="M170,134 V163"/><path class="lig" d="M170,211 V233"/><path class="lig" d="M170,281 V303"/><path class="lig" d="M170,351 V376"/>
+
+  <text class="rot" x="66" y="451">Origem: Transferência</text>
+  <path class="lig" d="M50,107 H34 V485 H48"/>
+  <rect class="caixa" x="50" y="460" width="240" height="46" rx="10"/><text class="tit" x="66" y="482">1. Identificação</text><text class="sub" x="66" y="498">dados do paciente</text>
+  <rect class="caixa" x="50" y="530" width="240" height="78" rx="10"/><text class="tit" x="66" y="552">2. Destino</text>
+  <text class="sub" x="66" y="570">ambulatório ou enfermaria: consulta</text><text class="sub" x="66" y="586">exames: envio ao LabSUS</text><text class="sub" x="66" y="602">telemedicina: registro</text>
+  <path class="lig" d="M170,506 V528"/>
+
+  <!-- ambulatório -->
+  <rect class="caixa" x="340" y="290" width="220" height="92" rx="10"/>
+  <text class="tit" x="356" y="314">Em observação</text>
+  <text class="sub" x="356" y="334">check-in de medicamentos</text><text class="sub" x="356" y="350">procedimentos e anotações</text><text class="sub" x="356" y="366">encaminha: alta ou internação</text>
+  <path class="lig" d="M290,333 H338"/><text class="rot" x="342" y="283" font-size="11">Encaminhamento: Ambulatório</text>
+
+  <!-- enfermaria -->
+  <rect class="caixa" x="620" y="140" width="240" height="56" rx="10"/>
+  <text class="tit" x="636" y="163">Admissão</text><text class="sub" x="636" y="182">leito, anamnese e exame físico</text>
+  <rect class="caixa" x="620" y="225" width="240" height="70" rx="10"/>
+  <text class="tit" x="636" y="248">Evoluções diárias</text><text class="sub" x="636" y="267">enfermagem: medicação, sinais, anotação</text><text class="sub" x="636" y="283">médica: prescrição, exames, plano</text>
+  <rect class="caixa" x="620" y="360" width="240" height="56" rx="10"/>
+  <text class="tit" x="636" y="383">Finalizar internação</text><text class="sub" x="636" y="402">CID, procedimento SUS e motivo</text>
+  <path class="lig" d="M740,196 V223"/><path class="lig" d="M740,295 V358"/>
+  <path class="lig" d="M860,374 C892,374 892,262 862,262"/><text class="rot" x="770" y="322" font-size="11">Permanência</text>
+  <path class="lig" d="M290,318 H306 V168 H618"/><text class="rot" x="470" y="160" font-size="11">Enfermaria (internação)</text>
+  <path class="lig" d="M560,312 C592,312 592,186 618,186"/><text class="rot" x="566" y="238" font-size="11" fill="#00866d">Internação</text>
+
+  <!-- finalizados -->
+  <rect class="caixa" x="920" y="290" width="240" height="56" rx="10"/>
+  <text class="tit" x="936" y="313">Ambulatório</text><text class="sub" x="936" y="332">saídas da observação (alta ou internação)</text>
+  <rect class="caixa" x="920" y="380" width="240" height="72" rx="10"/>
+  <text class="tit" x="936" y="403">Enfermaria</text><text class="sub" x="936" y="422">prontuário, laudo de AIH, AIH</text><text class="sub" x="936" y="438">e exportação da produção</text>
+  <rect class="caixa" x="920" y="530" width="240" height="56" rx="10"/>
+  <text class="tit" x="936" y="553">Encaminhamentos</text><text class="sub" x="936" y="572">exames (LabSUS) e telemedicina</text>
+  <path class="lig" d="M560,350 H884 C904,350 904,318 918,318"/>
+  <path class="lig" d="M860,400 C890,400 890,416 918,416"/><text class="rot" x="868" y="448" font-size="11">Saída</text>
+  <path class="lig" d="M290,580 C600,580 600,558 918,558"/><text class="rot" x="470" y="598" font-size="11">Exames ou telemedicina</text>
+
+  <text class="sub" x="20" y="664" font-size="13">Cada etapa salva libera a próxima, e o paciente passa sozinho para a tela do setor seguinte.</text>
+  <text class="sub" x="20" y="684" font-size="13">Transferência para ambulatório ou enfermaria segue o mesmo caminho da consulta (setas "Ambulatório" e "Enfermaria").</text>
+</svg>

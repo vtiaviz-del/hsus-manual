@@ -1,13 +1,16 @@
 ---
-description: Dados do hospital, responsáveis pelo laudo de AIH e configuração das alas e leitos.
+description: >-
+  Dados do hospital, responsáveis pelo laudo de AIH e configuração das alas e
+  leitos.
 icon: hospital
-cover: ../imagens/capa-cadastros.png
+cover: ../.gitbook/assets/capa-cadastros.png
 coverY: 0
 layout:
   width: wide
   cover:
     visible: true
-    size: hero
+    size: full
+    mask: none
   title:
     visible: true
   description:
@@ -18,6 +21,14 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Hospital
@@ -26,7 +37,7 @@ Em **Cadastros › Hospital** ficam os dados da unidade que aparecem nos documen
 
 ## Dados do hospital
 
-<div data-with-frame="true"><figure><img src="../imagens/hospital-dados.png" alt="Resumo dos leitos e dados do hospital"><figcaption><p>Resumo dos leitos e dados do hospital</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/hospital-dados.png" alt="Resumo dos leitos e dados do hospital"><figcaption><p>Resumo dos leitos e dados do hospital</p></figcaption></figure></div>
 
 1. **Resumo dos leitos:** quantidade de alas e de leitos e quantos estão ocupados e livres agora.
 2. **Dados do hospital:** nome, CNES e endereço. Digite o **CEP** e, com internet, cidade e estado são preenchidos sozinhos.
@@ -37,7 +48,7 @@ Confira o nome e o **CNES** antes de emitir documentos: eles saem no cabeçalho 
 
 ## Responsáveis pelo laudo de AIH e pela AIH
 
-<div data-with-frame="true"><figure><img src="../imagens/hospital-aih.png" alt="Laudo de AIH e AIH"><figcaption><p>Laudo de AIH e AIH</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/hospital-aih.png" alt="Laudo de AIH e AIH"><figcaption><p>Laudo de AIH e AIH</p></figcaption></figure></div>
 
 O cartão **Laudo de AIH e AIH** (1) traz quem é impresso nos documentos:
 
@@ -47,7 +58,7 @@ O cartão **Laudo de AIH e AIH** (1) traz quem é impresso nos documentos:
 
 ## Alas e leitos
 
-<div data-with-frame="true"><figure><img src="../imagens/hospital-alas.png" alt="Alas e leitos"><figcaption><p>Alas e leitos</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/hospital-alas.png" alt="Alas e leitos"><figcaption><p>Alas e leitos</p></figcaption></figure></div>
 
 1. **Nova ala:** acrescenta uma linha para a ala nova.
 2. **Alas:** cada ala tem um nome, o **público que recebe** (adultos masculino, adultos feminino, pediátrico etc.) e a **quantidade de leitos**. A barra mostra a ocupação.

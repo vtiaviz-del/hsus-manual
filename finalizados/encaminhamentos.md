@@ -13,13 +13,21 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Encaminhamentos
 
 Em **Finalizados › Encaminhamentos** ficam as transferências com destino **Exames** (enviadas ao LabSUS) e **Telemedicina** (registradas). A recepção também tem acesso a esta tela.
 
-<div data-with-frame="true"><figure><img src="../imagens/encaminhamentos.png" alt="Finalizados › Encaminhamentos"><figcaption><p>Finalizados › Encaminhamentos</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/encaminhamentos.png" alt="Finalizados › Encaminhamentos"><figcaption><p>Finalizados › Encaminhamentos</p></figcaption></figure></div>
 
 1. **Indicadores:** total de encaminhamentos, quantos foram para exames, quantos para telemedicina e o número de exames solicitados.
 2. **Filtros:** **Todos**, **Exames (LabSUS)** e **Telemedicina**.

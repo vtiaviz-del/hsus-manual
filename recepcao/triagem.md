@@ -13,6 +13,14 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Triagem
@@ -25,15 +33,15 @@ Na triagem, a enfermagem classifica o risco do paciente e registra os primeiros 
 
 Abra o atendimento e clique na aba **Triagem**.
 
-<div data-with-frame="true"><figure><img src="../imagens/triagem-risco.png" alt="Classificação de risco e sinais vitais"><figcaption><p>Classificação de risco e sinais vitais</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/triagem-risco.png" alt="Classificação de risco e sinais vitais"><figcaption><p>Classificação de risco e sinais vitais</p></figcaption></figure></div>
 
 1. Escolha a **classificação de risco**:
 
-| Cor | Prioridade |
-| --- | --- |
-| 🔵 Azul | Baixa |
-| 🟢 Verde | Média |
-| 🟡 Amarelo | Alta |
+| Cor         | Prioridade |
+| ----------- | ---------- |
+| 🔵 Azul     | Baixa      |
+| 🟢 Verde    | Média      |
+| 🟡 Amarelo  | Alta       |
 | 🔴 Vermelho | Muito alta |
 
 2. Registre os **sinais vitais**: pressão arterial, temperatura, frequência cardíaca e saturação (SpO₂).
@@ -42,7 +50,7 @@ Abra o atendimento e clique na aba **Triagem**.
 {% step %}
 ### Registre a queixa e as alergias
 
-<div data-with-frame="true"><figure><img src="../imagens/triagem-queixa.png" alt="Queixa principal e alergias"><figcaption><p>Queixa principal e alergias</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/triagem-queixa.png" alt="Queixa principal e alergias"><figcaption><p>Queixa principal e alergias</p></figcaption></figure></div>
 
 1. Escreva a **queixa principal** e as observações da triagem.
 2. Em **Alergias**, digite cada alergia e tecle **Enter**, ou clique numa das sugestões. Para remover, clique no **×** da etiqueta. Sem alergias na lista, o resumo do paciente mostra "Nenhuma".

@@ -13,6 +13,14 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Para telemedicina
@@ -25,7 +33,7 @@ Destino para o paciente que será atendido por **teleconsulta**.
 
 Abra o atendimento da transferência e clique na aba **Telemedicina** (1).
 
-<div data-with-frame="true"><figure><img src="../imagens/transf-telemedicina.png" alt="Aba Telemedicina antes do registro"><figcaption><p>Aba Telemedicina antes do registro</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/transf-telemedicina.png" alt="Aba Telemedicina antes do registro"><figcaption><p>Aba Telemedicina antes do registro</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -35,7 +43,7 @@ Clique em **Registrar Telemedicina** (2). O sistema salva o atendimento e marca 
 
 O botão muda para **Telemedicina registrada** (1), com a data e a hora logo abaixo (2), e um aviso confirma. O atendimento vai para [Finalizados › Encaminhamentos](../finalizados/encaminhamentos.md).
 
-<div data-with-frame="true"><figure><img src="../imagens/transf-telemedicina-registrada.png" alt="Telemedicina registrada"><figcaption><p>Telemedicina registrada</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/transf-telemedicina-registrada.png" alt="Telemedicina registrada"><figcaption><p>Telemedicina registrada</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 

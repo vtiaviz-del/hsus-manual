@@ -13,25 +13,33 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Perfis de acesso
 
 O menu lateral mostra só as telas liberadas para o seu perfil. O perfil é definido pelo administrador no cadastro de [Profissionais](../cadastros/profissionais.md).
 
-| Tela | Administrador | Médico | Enfermagem | Recepção |
-| --- | :---: | :---: | :---: | :---: |
-| Recepção › Entradas | ✅ | ✅ | ✅ | ✅ |
-| Ambulatório › Em observação | ✅ | ✅ | ✅ | — |
-| Enfermaria › Internações | ✅ | ✅ | ✅ | — |
-| Finalizados › Ambulatório | ✅ | ✅ | ✅ | — |
-| Finalizados › Enfermaria | ✅ | ✅ | ✅ | — |
-| Finalizados › Encaminhamentos | ✅ | ✅ | ✅ | ✅ |
-| Cadastros (Hospital, Profissionais, Tabelas SUS, Faixas de AIH) | ✅ | — | — | — |
+| Tela                                                            | Administrador | Médico | Enfermagem | Recepção |
+| --------------------------------------------------------------- | :-----------: | :----: | :--------: | :------: |
+| Recepção › Entradas                                             |       ✅       |    ✅   |      ✅     |     ✅    |
+| Ambulatório › Em observação                                     |       ✅       |    ✅   |      ✅     |     —    |
+| Enfermaria › Internações                                        |       ✅       |    ✅   |      ✅     |     —    |
+| Finalizados › Ambulatório                                       |       ✅       |    ✅   |      ✅     |     —    |
+| Finalizados › Enfermaria                                        |       ✅       |    ✅   |      ✅     |     —    |
+| Finalizados › Encaminhamentos                                   |       ✅       |    ✅   |      ✅     |     ✅    |
+| Cadastros (Hospital, Profissionais, Tabelas SUS, Faixas de AIH) |       ✅       |    —   |      —     |     —    |
 
 Por exemplo, um usuário da **recepção** vê só Entradas e Encaminhamentos (1):
 
-<div data-with-frame="true"><figure><img src="../imagens/perfil-recepcao.png" alt="Menu de um usuário com perfil Recepção"><figcaption><p>Menu de um usuário com perfil Recepção</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/perfil-recepcao.png" alt="Menu de um usuário com perfil Recepção"><figcaption><p>Menu de um usuário com perfil Recepção</p></figcaption></figure></div>
 
 ## Quem assina o quê
 

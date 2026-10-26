@@ -13,6 +13,14 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Admissão
@@ -25,7 +33,7 @@ A admissão coloca o paciente no leito e registra a avaliação inicial de enfer
 
 Selecione o paciente **Aguardando admissão** na lista e abra a aba **Admissão**.
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-leito.png" alt="Leito e internação" width="560"><figcaption><p>Leito e internação</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-leito.png" alt="Leito e internação" width="560"><figcaption><p>Leito e internação</p></figcaption></figure></div>
 
 1. Confira a **data e a hora da admissão**. As duas são obrigatórias.
 2. Escolha a **ala**. O sistema mostra só as alas compatíveis com o sexo e a idade do paciente (por exemplo, a pediátrica para menores de 12 anos).
@@ -38,7 +46,7 @@ Selecione o paciente **Aguardando admissão** na lista e abra a aba **Admissão*
 
 O leito fica destacado (1) e a mensagem abaixo confirma a ala e o número (2).
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-leito-escolhido.png" alt="Leito selecionado" width="560"><figcaption><p>Leito selecionado</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-leito-escolhido.png" alt="Leito selecionado" width="560"><figcaption><p>Leito selecionado</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -46,7 +54,7 @@ O leito fica destacado (1) e a mensagem abaixo confirma a ala e o número (2).
 
 Clique no título de cada seção para abri-la.
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-secoes.png" alt="Acompanhante e medicamentos da consulta" width="560"><figcaption><p>Acompanhante e medicamentos da consulta</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-secoes.png" alt="Acompanhante e medicamentos da consulta" width="560"><figcaption><p>Acompanhante e medicamentos da consulta</p></figcaption></figure></div>
 
 1. **Acompanhante:** nome, telefone, parentesco e documento.
 2. **Medicamentos e exames da consulta:** check-in da administração e da coleta. Como no ambulatório, a marcação é gravada na hora.
@@ -57,16 +65,16 @@ Clique no título de cada seção para abri-la.
 
 Os cartões (1) abrem formulários próprios. Clique em **Concluir** para voltar; o cartão passa a mostrar quantos itens foram informados.
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-cartoes.png" alt="Cartões da admissão" width="560"><figcaption><p>Cartões da admissão</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-cartoes.png" alt="Cartões da admissão" width="560"><figcaption><p>Cartões da admissão</p></figcaption></figure></div>
 
 * **Anamnese — Hábitos:** religião, tabagismo, drogas, etilismo, alimentação, ingestão hídrica, atividade física e sono.
 * **Anamnese — Históricos:** doenças, internações, cirurgias e medicamentos de uso contínuo do paciente e da família.
 * **Estado de entrada:** modo de entrada, consciência, pupilas, autocuidado e higiene.
 * **Sinais vitais:** PA, temperatura, FC, SpO₂, FR, glicemia, peso e altura. O IMC é calculado sozinho.
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-habitos.png" alt="Cartão Anamnese — Hábitos aberto"><figcaption><p>Cartão Anamnese — Hábitos aberto</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-habitos.png" alt="Cartão Anamnese — Hábitos aberto"><figcaption><p>Cartão Anamnese — Hábitos aberto</p></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-sinais.png" alt="Cartão Sinais vitais aberto"><figcaption><p>Cartão Sinais vitais aberto</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-sinais.png" alt="Cartão Sinais vitais aberto"><figcaption><p>Cartão Sinais vitais aberto</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -74,15 +82,15 @@ Os cartões (1) abrem formulários próprios. Clique em **Concluir** para voltar
 
 Abra **Exame físico** e clique na região do corpo (1): cabeça, tórax e sistemas, membros superiores ou inferiores. Marque as alterações encontradas. A legenda (2) mostra as regiões já avaliadas.
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-exame-fisico.png" alt="Mapa do corpo para o exame físico" width="560"><figcaption><p>Mapa do corpo para o exame físico</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-exame-fisico.png" alt="Mapa do corpo para o exame físico" width="560"><figcaption><p>Mapa do corpo para o exame físico</p></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-exame-regiao.png" alt="Exame físico da região da cabeça"><figcaption><p>Exame físico da região da cabeça</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-exame-regiao.png" alt="Exame físico da região da cabeça"><figcaption><p>Exame físico da região da cabeça</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 ### Registre o plano e salve
 
-<div data-with-frame="true"><figure><img src="../imagens/adm-diagnosticos.png" alt="Diagnósticos, plano e anotação" width="560"><figcaption><p>Diagnósticos, plano e anotação</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/adm-diagnosticos.png" alt="Diagnósticos, plano e anotação" width="560"><figcaption><p>Diagnósticos, plano e anotação</p></figcaption></figure></div>
 
 1. **Diagnósticos e plano de enfermagem:** o diagnóstico principal vem da consulta. Registre outro diagnóstico, se houver, o plano e a implementação.
 2. **Anotação de enfermagem:** o registro da admissão.

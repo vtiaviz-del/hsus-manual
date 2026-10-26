@@ -13,22 +13,30 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Ambulatório
 
 Em **Finalizados › Ambulatório** ficam os pacientes que saíram da [observação](../ambulatorio/em-observacao.md), com **alta** ou encaminhados para **internação**.
 
-<div data-with-frame="true"><figure><img src="../imagens/fin-amb.png" alt="Finalizados › Ambulatório"><figcaption><p>Finalizados › Ambulatório</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/fin-amb.png" alt="Finalizados › Ambulatório"><figcaption><p>Finalizados › Ambulatório</p></figcaption></figure></div>
 
 ## Indicadores do mês
 
-| Indicador | O que conta |
-| --- | --- |
-| **Finalizados** | Todos os atendimentos que saíram da observação no mês |
-| **Altas** | Saídas com alta |
-| **Para internação** | Pacientes encaminhados da observação para a enfermaria |
-| **Tempo médio** | Média do tempo entre a entrada no hospital e a saída da observação |
+| Indicador           | O que conta                                                        |
+| ------------------- | ------------------------------------------------------------------ |
+| **Finalizados**     | Todos os atendimentos que saíram da observação no mês              |
+| **Altas**           | Saídas com alta                                                    |
+| **Para internação** | Pacientes encaminhados da observação para a enfermaria             |
+| **Tempo médio**     | Média do tempo entre a entrada no hospital e a saída da observação |
 
 ## Filtros
 

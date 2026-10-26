@@ -13,13 +13,21 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Profissionais
 
 Em **Cadastros › Profissionais** o administrador cadastra quem usa o sistema: os dados de cada profissional, a função, o registro no conselho e o acesso (login, senha e nível).
 
-<div data-with-frame="true"><figure><img src="../imagens/profissionais-lista.png" alt="Cadastros › Profissionais"><figcaption><p>Cadastros › Profissionais</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/profissionais-lista.png" alt="Cadastros › Profissionais"><figcaption><p>Cadastros › Profissionais</p></figcaption></figure></div>
 
 1. **Indicadores:** total, ativos, médicos ativos e inativos.
 2. **Busca:** por nome, login, CPF, CNS ou CBO.
@@ -35,7 +43,7 @@ Em **Cadastros › Profissionais** o administrador cadastra quem usa o sistema: 
 
 Clique em **Novo**.
 
-<div data-with-frame="true"><figure><img src="../imagens/profissionais-novo.png" alt="Dados pessoais e função"><figcaption><p>Dados pessoais e função</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/profissionais-novo.png" alt="Dados pessoais e função"><figcaption><p>Dados pessoais e função</p></figcaption></figure></div>
 
 1. **Dados pessoais:** nome completo e, se tiver, CNS e CPF. O CNS e o CBO do médico saem no laudo de AIH e na produção.
 2. **Função:** escolha o **cargo** (para os mais comuns, o **CBO** é preenchido sozinho). Para médicos e enfermagem, preencha o **conselho** (CRM, COREN…), o **número de registro** e a **UF**: são obrigatórios porque saem ao lado do nome em cada registro do prontuário.
@@ -44,7 +52,7 @@ Clique em **Novo**.
 {% step %}
 ### Defina o acesso
 
-<div data-with-frame="true"><figure><img src="../imagens/profissionais-acesso.png" alt="Acesso ao sistema"><figcaption><p>Acesso ao sistema</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/profissionais-acesso.png" alt="Acesso ao sistema"><figcaption><p>Acesso ao sistema</p></figcaption></figure></div>
 
 1. **Login:** o nome de usuário para entrar.
 2. **Nível de acesso:** Administrador, Médico, Enfermagem ou Recepção. Veja o que cada um acessa em [Perfis de acesso](../primeiros-passos/perfis-de-acesso.md).

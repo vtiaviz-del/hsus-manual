@@ -13,6 +13,14 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Para a enfermaria
@@ -25,7 +33,7 @@ Destino para o paciente transferido que chega para ser **internado**.
 
 Abra o atendimento da transferência e clique na aba **Consulta** (1).
 
-<div data-with-frame="true"><figure><img src="../imagens/transf-consulta.png" alt="Consulta de uma transferência para a enfermaria"><figcaption><p>Consulta de uma transferência para a enfermaria</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/transf-consulta.png" alt="Consulta de uma transferência para a enfermaria"><figcaption><p>Consulta de uma transferência para a enfermaria</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

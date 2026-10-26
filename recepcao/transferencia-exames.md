@@ -13,6 +13,14 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Para exames
@@ -25,7 +33,7 @@ Destino para o paciente que vem ao hospital **só para fazer exames**.
 
 Abra o atendimento da transferência e clique na aba **Exames** (1).
 
-<div data-with-frame="true"><figure><img src="../imagens/transf-exames.png" alt="Aba Exames da transferência"><figcaption><p>Aba Exames da transferência</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/transf-exames.png" alt="Aba Exames da transferência"><figcaption><p>Aba Exames da transferência</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -41,7 +49,7 @@ Clique em **Enviar para LabSUS** (3). O sistema salva o atendimento e registra o
 
 Depois do envio, o botão muda para **Enviado para LabSUS** (1) e mostra a data e a hora (2). O atendimento vai para [Finalizados › Encaminhamentos](../finalizados/encaminhamentos.md).
 
-<div data-with-frame="true"><figure><img src="../imagens/transf-exames-enviado.png" alt="Exames enviados ao LabSUS"><figcaption><p>Exames enviados ao LabSUS</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/transf-exames-enviado.png" alt="Exames enviados ao LabSUS"><figcaption><p>Exames enviados ao LabSUS</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
