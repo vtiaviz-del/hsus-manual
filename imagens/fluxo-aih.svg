@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" font-family="Segoe UI, DM Sans, Arial, sans-serif">
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6a85"/>
+    </marker>
+    <style>
+      .caixa { fill: #fff; stroke: #c9d4e6; stroke-width: 1.5; }
+      .destaque { fill: #eaf2fd; stroke: #3a7bd5; stroke-width: 1.8; }
+      .perigo { fill: #fff1f1; stroke: #e04545; stroke-width: 1.6; }
+      .tit { font-size: 15px; font-weight: 700; fill: #1b2a44; }
+      .sub { font-size: 12px; fill: #5a6a85; }
+      .lig { fill: none; stroke: #5a6a85; stroke-width: 1.8; marker-end: url(#seta); }
+      .rot { font-size: 11px; font-weight: 700; fill: #3a7bd5; }
+    </style>
+  </defs>
+  <rect width="1200" height="430" fill="#fff"/>
+
+  <rect class="caixa" x="20" y="150" width="200" height="74" rx="10"/>
+  <text class="tit" x="36" y="175">Saídas do mês</text><text class="sub" x="36" y="194">internações finalizadas</text><text class="sub" x="36" y="210">em Finalizados › Enfermaria</text>
+
+  <rect class="caixa" x="290" y="20" width="230" height="74" rx="10"/>
+  <text class="tit" x="306" y="45">Faixas de AIH</text><text class="sub" x="306" y="64">números autorizados pelo gestor</text><text class="sub" x="306" y="80">(cadastro, 12 dígitos)</text>
+
+  <rect class="destaque" x="290" y="150" width="230" height="74" rx="10"/>
+  <text class="tit" x="306" y="175">Gerar AIHs</text><text class="sub" x="306" y="194">um número por saída, com dígito</text><text class="sub" x="306" y="210">verificador; cancelados primeiro</text>
+
+  <rect class="caixa" x="600" y="70" width="250" height="60" rx="10"/>
+  <text class="tit" x="616" y="95">AIH e AIHs do mês</text><text class="sub" x="616" y="114">impressão em duas vias</text>
+  <rect class="caixa" x="600" y="157" width="250" height="60" rx="10"/>
+  <text class="tit" x="616" y="182">Exportar Produção</text><text class="sub" x="616" y="201">arquivo CSV do mês</text>
+  <rect class="caixa" x="600" y="244" width="250" height="60" rx="10"/>
+  <text class="tit" x="616" y="269">Laudos de AIH</text><text class="sub" x="616" y="288">disponíveis antes da numeração</text>
+
+  <rect class="perigo" x="920" y="150" width="260" height="74" rx="10"/>
+  <text class="tit" x="936" y="175" fill="#b02a2a">Cancelar AIH</text><text class="sub" x="936" y="194">informe o motivo; o número volta</text><text class="sub" x="936" y="210">para ser reaproveitado</text>
+
+  <path class="lig" d="M220,187 H288"/>
+  <path class="lig" d="M405,94 V148"/><text class="rot" x="412" y="125">fornece os números</text>
+  <path class="lig" d="M520,175 C560,175 560,100 598,100"/>
+  <path class="lig" d="M520,187 H598"/>
+  <path class="lig" d="M220,205 C420,330 470,274 598,274"/>
+  <path class="lig" d="M850,100 C890,100 890,170 918,170"/><text class="rot" x="868" y="92">se houver erro</text>
+  <path class="lig" d="M1050,224 C1050,340 405,340 405,226"/><text class="rot" x="560" y="338">o atendimento volta para "Gerar AIHs" e recebe primeiro o número cancelado</text>
+
+  <text class="sub" x="20" y="396" font-size="13">"AIHs" e "Exportar Produção" só ficam disponíveis quando todas as saídas do mês têm número.</text>
+  <text class="sub" x="20" y="416" font-size="13">O campo 60 do laudo (nº da autorização) é preenchido à mão.</text>
+</svg>
